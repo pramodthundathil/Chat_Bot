@@ -13,8 +13,8 @@
         API_KEY = scriptTag.getAttribute("data-api-key") || API_KEY;
     }
     
-    const CHAT_API_URL = "https://johnsconcept.pythonanywhere.com//chatbot_response/"; // Your AI backend URL for chat
-    const COMPANY_API_URL = "https://johnsconcept.pythonanywhere.com//customer_details/"; // Company details API
+    const CHAT_API_URL = "https://johnsconcept.pythonanywhere.com/chatbot_response/"; // Your AI backend URL for chat
+    const COMPANY_API_URL = "https://johnsconcept.pythonanywhere.com/customer_details/"; // Company details API
     
     // Default configurations
     let botConfig = {
